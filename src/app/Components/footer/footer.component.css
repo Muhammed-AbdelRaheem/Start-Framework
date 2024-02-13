@@ -1,0 +1,18 @@
+.footerRow{
+    background-color: #2C3E50;
+}
+
+.copyright{background-color:#1A252F ;}
+.col-md-6{
+    color: white;
+}
+.icon i {
+    color: white;
+    border: solid 1px white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

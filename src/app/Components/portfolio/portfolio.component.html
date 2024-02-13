@@ -1,0 +1,26 @@
+<div  class="container d-flex justify-content-center align-items-center flex-column ">
+    <div class="title d-flex flex-column align-items-center">
+        <h2 class="pt-5 text-center">PORTFOLIO COMPONENT</h2>
+        <div  class="icon w-25 d-flex justify-content-center position-relative ">
+            <i class="fa-solid fa-star  "></i>
+        </div>
+    </div>
+    <div class="row py-4 gy-5 ">
+        <div *ngFor="let x of imgSrc " (click)="src(modalImg.src)" (click)="Showmodal(modal)"class="col-lg-4 col-md-6">
+            <div class="img rounded-3 position-relative ">
+                <img #modalImg class=" main img-fluid rounded-3" src="{{x}}" alt="">
+                <div class="layar position-absolute rounded-3 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-plus fa-7x text-white "></i>
+                </div>
+            </div>
+        </div>
+           
+</div> 
+
+
+
+<div  #modal (click)="Hidemodal(modal)"class="img-modal  {{modalhide}} start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center   " >
+    <img #img class="img w-50 rounded-3  " src= '{{modalImg }}' alt="">
+</div>
+
+

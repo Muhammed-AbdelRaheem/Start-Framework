@@ -1,0 +1,53 @@
+
+h2{font-size: 40px;font-weight: bold;}
+.home .img
+{
+    width: 250px;
+    height: 100%;
+}
+
+.icon::after
+, .icon::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    bottom: 5px;
+    
+}
+ .icon::after {
+
+    right: 75px; 
+}
+ .icon::before {
+
+    left: 75px;  
+}
+
+.img{cursor: pointer;}
+
+.img:hover .layar{
+opacity: .9;
+
+}
+.layar{
+    
+    background-color: #1ABC9C;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+}
+.img-modal{
+
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
+
+

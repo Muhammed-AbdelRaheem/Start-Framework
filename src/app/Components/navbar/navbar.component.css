@@ -1,0 +1,20 @@
+#title{font-size: 30px; font-weight: bolder;}
+a {font-weight: bold;
+    color: white;}
+
+
+
+.navbar {
+    background-color:#2C3E50 !important
+    ;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white !important;
+}
+ .navbar-brand:hover
+ {color: white;}
+
+ .active{
+    background-color: #1ABC9C;
+ }

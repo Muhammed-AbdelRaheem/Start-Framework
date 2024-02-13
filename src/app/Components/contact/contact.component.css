@@ -1,0 +1,51 @@
+
+h2{font-size:40px ;font-weight: bold;}
+
+.icon::after
+, .icon::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    bottom: 5px;
+    
+}
+ .icon::after {
+
+    right: 70px; 
+}
+ .icon::before {
+
+    left: 70px;  
+}
+
+.container-fluid .form-control{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding-: 15px;
+    /* margin: 0 50px 0 0; */
+}
+.container-fluid .form-control:focus{border-color:gray;
+box-shadow: none;}
+.btn {background-color: #1ABC9C;}
+
+
+.bottom--30{
+    bottom: -30px;
+}
+
+
+.input label{ 
+    transition:bottom .5s ;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    color: #1abc9c !important;
+    z-index: -1;
+    margin-bottom: 10px;
+    
+}
+
+

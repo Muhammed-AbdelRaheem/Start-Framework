@@ -1,0 +1,31 @@
+<div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+    <div class="title d-flex flex-column align-items-center">
+        <h2 class="pt-5">CONATCT SECTION
+        </h2>
+        <div  class="icon w-25 d-flex justify-content-center position-relative ">
+            <i class="fa-solid fa-star  "></i>
+        </div>
+    </div>
+    <form class="w-50 ">
+     <div class="input ">
+        <label #names for="name" class=" fw-bold ">User Name:</label>
+        <input  (focus)="Showlabel(names)" (blur)="Hidelable(names)" id="name" type="text" class="form-control  w-100  " placeholder="User Name">
+     
+    </div>
+        <div class="input ">
+            <label #age for="age" class=" fw-bold">User Age:</label>
+        <input (focus)="Showlabel(age)" (blur)="Hidelable(age)" id="age" type="text" class="form-control  w-100  "  placeholder="User age">
+        </div>
+      <div class="input ">
+        <label #email for="Email" class=" fw-bold">User Email:</label>
+        <input (focus)="Showlabel(email)" (blur)="Hidelable(email)" id="Email" type="text" class="form-control  w-100 " placeholder="User email">
+      </div>
+    <div class="input ">
+        <label #password for="Password" class=" fw-bold">User Password:</label>
+        <input (focus)="Showlabel(password)" (blur)="Hidelable(password)" id="Password" type="text" class="form-control  w-100 mb-3 " placeholder="User password">
+    </div>
+        <button type="button" class="btn btn-success mb-4 px-3">Send Message</button>
+    </form>
+
+
+</div>

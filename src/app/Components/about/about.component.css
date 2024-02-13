@@ -1,0 +1,24 @@
+
+.container-fluid {
+    background-color: #1ABC9C ;
+    
+}
+h2{font-size:40px ;font-weight: bold;}
+.icon::after
+, .icon::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    bottom: 5px;
+    
+}
+ .icon::after {
+
+    right: 70px; 
+}
+ .icon::before {
+
+    left: 70px;  
+}
